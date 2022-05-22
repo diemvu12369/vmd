@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1653182304 source:c:\users\admin\documents\btl\vmd\button.cpp
+	"Button.h"
+	"Manager.h"
+
+1653199747 c:\users\admin\documents\btl\vmd\button.h
+	"Utility.h"
+
+1653199604 c:\users\admin\documents\btl\vmd\entity.h
+	"TextureLoader.h"
+
+1653181021 c:\users\admin\documents\btl\vmd\textureloader.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+
+1653199577 c:\users\admin\documents\btl\vmd\manager.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	<iostream>
+	"Collision.h"
+	"Unit.h"
+
+1653202161 c:\users\admin\documents\btl\vmd\collision.h
+	"SDL.h"
+	"iostream"
+
+1653182575 c:\users\admin\documents\btl\vmd\player.h
+	"Entity.h"
+	"Weapon.h"
+
+1653199741 c:\users\admin\documents\btl\vmd\weapon.h
+	"Utility.h"
+	"vector"
+
+1653182102 source:c:\users\admin\documents\btl\vmd\character.cpp
+	"Character.h"
+	"Manager.h"
+
+1653182102 c:\users\admin\documents\btl\vmd\character.h
+	<vector>
+	"Entity.h"
+
+1653180989 source:c:\users\admin\documents\btl\vmd\collision.cpp
+	"Collision.h"
+	"iostream"
+
+1653180983 source:c:\users\admin\documents\btl\vmd\entity.cpp
+	"Entity.h"
+	"Manager.h"
+
+1653134117 source:c:\users\admin\documents\btl\vmd\main.cpp
+	<iostream>
+	"Manager.h"
+
+1653199742 source:c:\users\admin\documents\btl\vmd\manager.cpp
+	<cstring>
+	<random>
+	<chrono>
+	<algorithm>
+	"Manager.h"
+	"Action.h"
+	"Button.h"
+
+1653182575 source:c:\users\admin\documents\btl\vmd\player.cpp
+	"Player.h"
+	"Manager.h"
+
+1651679499 source:c:\users\admin\documents\btl\vmd\textureloader.cpp
+	"TextureLoader.h"
+	"Manager.h"
+
+1653181935 source:c:\users\admin\documents\btl\vmd\weapon.cpp
+	"Weapon.h"
+	<stdlib.h>
+	<iostream>
+
+1653199743 c:\users\admin\documents\btl\vmd\unit.h
+	"Utility.h"
+	"Weapon.h"
+
+1653199041 source:c:\users\admin\documents\btl\vmd\unit.cpp
+	"Unit.h"
+	"Manager.h"
+
+1653199307 source:c:\users\admin\documents\btl\vmd\action.cpp
+	"Action.h"
+	"Manager.h"
+
+1653199747 c:\users\admin\documents\btl\vmd\action.h
+	<vector>
+	"Utility.h"
+
+1653206530 c:\users\admin\documents\btl\vmd\utility.h
+	"TextureDrawer.h"
+
+1653199739 source:c:\users\admin\documents\btl\vmd\utility.cpp
+	"Utility.h"
+	"Manager.h"
+
+1653206528 c:\users\admin\documents\btl\vmd\texturedrawer.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+

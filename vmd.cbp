@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vmd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vmd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vmd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Action.cpp" />
+		<Unit filename="Action.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Collision.cpp" />
+		<Unit filename="Collision.h" />
+		<Unit filename="Manager.cpp" />
+		<Unit filename="Manager.h" />
+		<Unit filename="SDL2.dll" />
+		<Unit filename="SDL2_image.dll" />
+		<Unit filename="SDL2_mixer.dll" />
+		<Unit filename="SDL2_ttf.dll" />
+		<Unit filename="TextureDrawer.cpp" />
+		<Unit filename="TextureDrawer.h" />
+		<Unit filename="Unit.cpp" />
+		<Unit filename="Unit.h" />
+		<Unit filename="Utility.cpp" />
+		<Unit filename="Utility.h" />
+		<Unit filename="Weapon.cpp" />
+		<Unit filename="Weapon.h" />
+		<Unit filename="fonts/coolvetica.ttf" />
+		<Unit filename="libFLAC-8.dll" />
+		<Unit filename="libfreetype-6.dll" />
+		<Unit filename="libjpeg-9.dll" />
+		<Unit filename="libmodplug-1.dll" />
+		<Unit filename="libmpg123-0.dll" />
+		<Unit filename="libogg-0.dll" />
+		<Unit filename="libopus-0.dll" />
+		<Unit filename="libopusfile-0.dll" />
+		<Unit filename="libpng16-16.dll" />
+		<Unit filename="libstdc++-6.dll" />
+		<Unit filename="libtiff-5.dll" />
+		<Unit filename="libvorbis-0.dll" />
+		<Unit filename="libvorbisfile-3.dll" />
+		<Unit filename="libwebp-7.dll" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resources/background-1.png" />
+		<Unit filename="resources/background.png" />
+		<Unit filename="resources/coin.png" />
+		<Unit filename="resources/dirt.png" />
+		<Unit filename="resources/grass.png" />
+		<Unit filename="resources/green_attack_0.png" />
+		<Unit filename="resources/green_attack_1.png" />
+		<Unit filename="resources/green_attack_2.png" />
+		<Unit filename="resources/green_attack_3.png" />
+		<Unit filename="resources/green_attack_4.png" />
+		<Unit filename="resources/green_moving_0.png" />
+		<Unit filename="resources/green_moving_1.png" />
+		<Unit filename="resources/green_moving_2.png" />
+		<Unit filename="resources/green_moving_3.png" />
+		<Unit filename="resources/green_moving_4.png" />
+		<Unit filename="resources/green_moving_5.png" />
+		<Unit filename="resources/long-background.png" />
+		<Unit filename="resources/niko_attack_0.png" />
+		<Unit filename="resources/niko_attack_1.png" />
+		<Unit filename="resources/niko_attack_10.png" />
+		<Unit filename="resources/niko_attack_11.png" />
+		<Unit filename="resources/niko_attack_12.png" />
+		<Unit filename="resources/niko_attack_13.png" />
+		<Unit filename="resources/niko_attack_14.png" />
+		<Unit filename="resources/niko_attack_15.png" />
+		<Unit filename="resources/niko_attack_16.png" />
+		<Unit filename="resources/niko_attack_2.png" />
+		<Unit filename="resources/niko_attack_3.png" />
+		<Unit filename="resources/niko_attack_4.png" />
+		<Unit filename="resources/niko_attack_5.png" />
+		<Unit filename="resources/niko_attack_6.png" />
+		<Unit filename="resources/niko_attack_7.png" />
+		<Unit filename="resources/niko_attack_8.png" />
+		<Unit filename="resources/niko_attack_9.png" />
+		<Unit filename="resources/niko_moving_0.png" />
+		<Unit filename="resources/niko_moving_1.png" />
+		<Unit filename="resources/over.png" />
+		<Unit filename="resources/pink_attack_0.png" />
+		<Unit filename="resources/pink_attack_1.png" />
+		<Unit filename="resources/pink_attack_2.png" />
+		<Unit filename="resources/pink_attack_3.png" />
+		<Unit filename="resources/pink_attack_4.png" />
+		<Unit filename="resources/pink_moving_0.png" />
+		<Unit filename="resources/pink_moving_1.png" />
+		<Unit filename="resources/pink_moving_2.png" />
+		<Unit filename="resources/pink_moving_3.png" />
+		<Unit filename="resources/pink_moving_4.png" />
+		<Unit filename="resources/pink_moving_5.png" />
+		<Unit filename="resources/pink_standing_0.png" />
+		<Unit filename="resources/pink_standing_1.png" />
+		<Unit filename="resources/pink_standing_2.png" />
+		<Unit filename="resources/pink_standing_3.png" />
+		<Unit filename="resources/play-button.png" />
+		<Unit filename="resources/stop-button.png" />
+		<Unit filename="resources/water.png" />
+		<Unit filename="resources/yasuo_moving_0.png" />
+		<Unit filename="resources/yasuo_moving_1.png" />
+		<Unit filename="resources/yasuo_moving_2.png" />
+		<Unit filename="resources/yasuo_norm_0.png" />
+		<Unit filename="resources/yasuo_norm_1.png" />
+		<Unit filename="resources/yasuo_norm_2.png" />
+		<Unit filename="resources/yasuo_stab_0.png" />
+		<Unit filename="resources/yasuo_stab_1.png" />
+		<Unit filename="resources/yasuo_stab_2.png" />
+		<Unit filename="resources/yasuo_stab_3.png" />
+		<Unit filename="resources/yasuo_stab_4.png" />
+		<Unit filename="resources/yasuo_standing_0.png" />
+		<Unit filename="resources/yasuo_standing_1.png" />
+		<Unit filename="resources/yasuo_standing_2.png" />
+		<Unit filename="resources/yasuo_standing_3.png" />
+		<Unit filename="resources/yasuo_standing_4.png" />
+		<Unit filename="resources/yasuo_standing_5.png" />
+		<Unit filename="resources/yasuo_sword_behind.png" />
+		<Unit filename="resources/yasuo_sword_behind_1.png" />
+		<Unit filename="zlib1.dll" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
